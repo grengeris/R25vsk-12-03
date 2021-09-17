@@ -1,18 +1,13 @@
- #Python programma priekš vinekārša kalkulatora
-  
-# Funkcija lai saskaitītu divus skaitļus 
+ 
 def saskaitisana(numurs1, numurs2):
     return numurs1 + numurs2
-  
-# Funkcija lai atņemtu divus skaitļus
+
 def atnemsana(numurs1, numurs2):
     return numurs1 - numurs2
-  
-# Funkcija lai sareizinātu divus skaitļus
+
 def reizinasana(numurs1, numurs2):
     return numurs1 * numurs2
-  
-# Funkcija lai sadalītu divus skaitļus
+
 def dalisana(numurs1, numurs2):
     return numurs1 / numurs2
   
@@ -21,9 +16,7 @@ print("Lūdzu izvēlaties opciju -\n" \
         "2. Atņemt\n" \
         "3. Sareizināt\n" \
         "4. Izdalīt\n")
-  
-  
-# Saņem ievadītos datus no lietotāja 
+         
 select = int(input("Izvēlies opciju - 1, 2, 3, 4 :"))
   
 pirmais_skaitlis = int(input("Ievadiet pirmo skaitli: "))
